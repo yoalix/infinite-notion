@@ -1,6 +1,7 @@
 import Editor from "@/ui/editor";
 import Github from "@/ui/icons/github";
 import Menu from "./menu";
+import Canvas from "@/ui/canvas";
 
 export default function Page() {
   return (
@@ -12,8 +13,9 @@ export default function Page() {
       >
         <Github />
       </a>
+      <Canvas />
       <Menu />
-      <Editor />
+      {/* <Editor /> */}
     </div>
   );
 }
